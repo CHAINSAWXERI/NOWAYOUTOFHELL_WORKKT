@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6658164024830679288}
   - component: {fileID: 3043861495631237881}
   - component: {fileID: 5836489988414858439}
-  - component: {fileID: 7732746794594941620}
+  - component: {fileID: 4305653672906131110}
   m_Layer: 0
   m_Name: DeathSaw
   m_TagString: Untagged
@@ -121,7 +121,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7732746794594941620
+--- !u!114 &4305653672906131110
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,6 +130,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3435722624405309776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a731a0f5e0a1494aa421c0f48a464c8, type: 3}
+  m_Script: {fileID: 11500000, guid: af6ecaedbc1ab4547bdef3320dabfdc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathWall: {fileID: 1721745432498908725, guid: fc4a06d24e9f1ed47b48f72cd6aa7f16, type: 3}
